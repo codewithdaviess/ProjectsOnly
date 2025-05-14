@@ -1,7 +1,13 @@
+import SearchBar from './components/SearchBar';
+import ItineraryOverview from './components/ItineraryOverview';
+import ItineraryList from './components/ItineraryList';
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl flex justify-center items-center font-bold h-100 ">Welcome, Rongai Safaris!</h1>
+    <div className="p-6 flex items-center justify-center flex-col">
+      <SearchBar />
+      <ItineraryOverview />
+      <ItineraryList />
     </div>
   );
 }
